@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: course-system
+  main:
+    allow-circular-references: true
+
+# 日志配置
+logging:
+  level:
+    com.zjgsu.lyy.course: INFO
+    org.springframework.web: INFO
